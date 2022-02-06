@@ -12,9 +12,6 @@ Iteration, until meeting the end state .**
 1. BeamK ---  the number of Beam
 
 
-
-
-
 ## What happen in Search Algorithm 
 > **Input**
 1. Solution space
