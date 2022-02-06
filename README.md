@@ -4,8 +4,8 @@
 **Similar to greedy search. However, initializing from one start state, search in solution space, keeping the BeamK best current solution under the current step.     
 Iteration, until meeting the end state .**    
 
-In this task, I use Beam Search to generate sentence, and develop 2 different versions of Beam-Search to generate sentence:  
-1. normal one
+**In this task, I use Beam Search to generate sentence, and develop 2 different versions of Beam-Search to generate sentence:**.  
+1. Normal Beam Search
 2. Beam search with `normalization` of `sentence length`
 
 ## Hypeparameters:
