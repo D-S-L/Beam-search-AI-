@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Beam Search in AI
 
 ## Description :
@@ -78,4 +77,3 @@ For example:
 2. [Single-Queue Decoding for Neural Machine Translation](https://arxiv.org/pdf/1707.01830.pdf![image](https://user-images.githubusercontent.com/39432361/152667989-496df029-43a7-49ce-b9b5-61d600887121.png)
 )
 
->>>>>>> 44abfc11de8b2fa4c0586402ee62066fce95d771
