@@ -26,6 +26,8 @@ Iteration, until meeting the end state .**
 ## Where to use
 For all of peoblem which need to do search tasks in the solution space
 
-For example: 
-[Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation](https://arxiv.org/pdf/1609.08144.pdf (7.pdf)
+For example:  
+[Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation](https://arxiv.org/pdf/1609.08144.pdf (7.pdf)) 
+[Single-Queue Decoding for Neural Machine Translation](https://arxiv.org/pdf/1707.01830.pdf![image](https://user-images.githubusercontent.com/39432361/152667989-496df029-43a7-49ce-b9b5-61d600887121.png)
+)
 
