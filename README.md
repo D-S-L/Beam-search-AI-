@@ -27,5 +27,5 @@ Iteration, until meeting the end state .**
 For all of peoblem which need to do search tasks in the solution space
 
 For example: 
-[Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Farxiv.org%2Fpdf%2F1609.08144.pdf%2520(7.pdf&clen=1688289&chunk=true)
+[Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation](https://arxiv.org/pdf/1609.08144.pdf (7.pdf)
 
