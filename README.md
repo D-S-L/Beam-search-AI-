@@ -8,6 +8,8 @@ Iteration, until meeting the end state .**
 1. BeamK ---  the number of Beam
 
 
+
+## What happen in Search Algorithm 
 > Input
 1. Solution space
 2. BeamK
@@ -20,4 +22,10 @@ Iteration, until meeting the end state .**
 > Output
 1. Get a solution set (containing `K` best solutions)
 2. Ruturn the best one in the solution set
+
+## Where to use
+For all of peoblem which need to do search tasks in the solution space
+
+For example: 
+[Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Farxiv.org%2Fpdf%2F1609.08144.pdf%2520(7.pdf&clen=1688289&chunk=true)
 
