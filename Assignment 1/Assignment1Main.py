@@ -28,7 +28,7 @@ sentence_prob = beam_search.beamSearchV1("<s> It is", 10, 15)
 print(str(sentence_prob.score) + "\t" + sentence_prob.string)
 
 # Find the sentence with highest probability using beam search with sentence length-normalzation.
-param_lambda = 0.7
+param_lambda =0.7
 sentence_prob = beam_search.beamSearchV2("<s>", 10, param_lambda, 20)
 print(str(sentence_prob.score) + "\t" + sentence_prob.string)
 sentence_prob = beam_search.beamSearchV2("<s> Israel and Jordan signed the peace", 10, param_lambda, 40)

@@ -1,3 +1,4 @@
+from collections import defaultdict
 class ExtractGraph:
 
     # key is head word; value stores next word and corresponding probability.
@@ -7,11 +8,12 @@ class ExtractGraph:
 
     def __init__(self):
         # Extract the directed weighted graph, and save to {head_word, {tail_word, probability}}
-        self.graph = {}
+        self.graph = defaultdict(lambda: defaultdict(int))
+        self.vaca = defaultdict(lambda: defaultdict(int))
         self.data = []
-        self.txt = self.extract_str()
-        self.graph = self.est_graph(self.txt)
-        #print(self.graph)
+        self.txt = self.extract_str() # return a list which contains all of documents --- each element is a doucment
+        self.est_graph(self.txt)
+
         return
 
     def extract_str(self, sentences_add = sentences_add):
@@ -20,8 +22,28 @@ class ExtractGraph:
         txt = txt.split('\n')
         return txt
 
+    def est_graph(self,txt):
+        for i in txt:     # get the whole pre-next relationship among corpus
+            cur_txt = i.split(' ')
+            n = len(cur_txt)
+            for j in range(n-1):
 
-    def est_graph(self, txt):
+                self.vaca[cur_txt[j]][cur_txt[j+1]] += 1
+        for i in self.vaca:
+            cur_pre = i
+            cur_tot_next = sum(self.vaca[cur_pre].values())
+
+            for j in self.vaca[cur_pre]:
+                # if i =="<s>":
+                #     print(i,j)
+                self.graph[cur_pre][j]= self.vaca[cur_pre][j]/cur_tot_next
+
+        return
+
+
+
+
+    def est_graph_1(self, txt):    # a wrong version --- which calculate a wrong probability (use the number of total words)
         graph = self.graph
         n  = len(txt)
         s = set()
