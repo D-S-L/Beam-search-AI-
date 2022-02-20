@@ -7,7 +7,7 @@ Iteration, until meeting the end state .**
 **In this task, I use Beam Search to generate sentence, and develop 2 different versions of Beam-Search to generate sentence:**.  
 1. Normal Beam Search
 2. Beam search with `normalization` of `sentence length`  
-> (due to the property of calculation of score, generally, the value of score will decrease as the imcrement of the lenght of sentence. Inreoduce lenght normalization to ensure the algorithm consider sentences with different lenght without bias----the shorter, the best)
+> (due to the property of calculation of score, generally, the value of score will decrease as the imcrement of the lenght of sentence. Inreoduce lenght normalization to ensure the algorithm consider sentences with different lenght without bias----the shorter, the better)
 
 ## Hypeparameters:
 1. BeamK ---  the number of Beam
